@@ -20,8 +20,8 @@ Matrix like. Each row is the data and the columns are a description of the data.
 2. Images are described by grayscale, size, shape
 
 **Categories**
-1. Rows are know as _sample_ 
-2. Columns are _features_. 
+1. Rows are know as _sample_. This are commonly defined with the variable "X"
+2. Columns are _features_. this are commonly defined with the variable "y"
 3. The _shape_ of the data is the number of _samples_ multiplied by the number of _features_ 
 4. The _labels_ are the categories of our _samples_. For example, flower species, breads of dogs
 5. The _target_ is the classification of our date set. The _target_ is the whole set of _labels_ 
@@ -32,6 +32,11 @@ The data is divide in two parts
 
 **Tricks**
 1. Visualize the data to find inconsistencies. Use a scatter plot
+
+**Types of problems**
+1. Classification. We we want to predict outcomes in a non continue space. For example, predict: languages, species,
+yes-no answers
+2. Regression. We we want to predict outcomes in a continue space. For example, predict: wages, prices, weights
 
 
 
