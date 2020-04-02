@@ -63,4 +63,13 @@ the model that need to be learned
 6. When the predictions of the train and test dataset differ substantially, i.e., the model is too complex. Meaning 
 that the train dataset does very well on predictions, but the test dataset preforms poorly). 
 We may use 'ridge regression' for controlling the complexity of our model and avoid overffiting 
+7. Ridge regression help to avoid the overfitting problems of linear models. The parameter alpha is used to calibrate 
+the generalization of the model
+8. Ridge regression is good when less data is available. When more data is available linear regression and ridge 
+regression will have the same performance
+9. Ridge regression is useful when most of the parameters of the model make sense. While in Lasso regression if some 
+parameters does not make sense, the Lasso will ignore those parameters a make the model mo coherent.
+10. Lasso regression make the model simpler and easy to interpret
+11. Lasso, Ridege and linear have trade-offs. Select carefully 
 
+**Linear models for classification**
